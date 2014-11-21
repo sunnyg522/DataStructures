@@ -1,0 +1,15 @@
+package com.vikram;
+
+import javax.lang.model.type.NullType;
+
+public class CutomeNUllpointer extends NullPointerException{
+	private CutomeNUllpointer()
+	{
+		System.out.println("Error ! Refference is null");
+	}
+	private CutomeNUllpointer(String s)
+	{
+		System.out.println(s);
+	}
+
+}

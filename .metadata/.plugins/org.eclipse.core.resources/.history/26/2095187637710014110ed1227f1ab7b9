@@ -1,0 +1,16 @@
+package com.vikram;
+
+import java.awt.font.NumericShaper;
+
+public class TestResultMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		double number[] = new double[5];
+		number[0] = -1.00;
+		
+		
+				}
+
+}

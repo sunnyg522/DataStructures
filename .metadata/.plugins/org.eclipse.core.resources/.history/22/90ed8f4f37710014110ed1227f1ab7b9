@@ -1,0 +1,14 @@
+package com.vikram;
+
+import java.awt.font.NumericShaper;
+
+public class TestResultMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		long number[] = new long[5];
+		
+				}
+
+}

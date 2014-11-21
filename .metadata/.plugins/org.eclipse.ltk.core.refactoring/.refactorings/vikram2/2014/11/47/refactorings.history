@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 5 elements to &apos;vikram2/src/vikram2&apos;&#x0A;- Original project: &apos;vikram2&apos;&#x0A;- Destination element: &apos;vikram2/src/vikram2&apos;&#x0A;- Original elements:&#x0A;     Monster.java&#x0A;     Driver.java&#x0A;     assign.java&#x0A;     Orc.java&#x0A;     ferret.java&#x0A;- Update references to refactored element" description="Move compilation units" destination="/src&lt;vikram2" element1="/src&lt;{Monster.java" element2="/src&lt;{Driver.java" element3="/src&lt;{assign.java" element4="/src&lt;{Orc.java" element5="/src&lt;{ferret.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1416458276240" units="5" version="1.0"/>
+</session>

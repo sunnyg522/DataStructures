@@ -1,0 +1,24 @@
+package com.vikram;
+
+public class TestCustomeNUllException {
+
+	public static void main(String[] args) {
+		String p[] = new String[10];
+		printArrary(p);
+
+	}
+	public static void printArrary(String array[])
+	{
+		
+		try{
+		for(int i = 2;i= < array.length;i++)
+		{
+			System.out.println(array[i]);
+		}}
+		catch(CutomeNUllpointer e)
+		{
+			System.out.println("test");
+		}
+	}
+
+}

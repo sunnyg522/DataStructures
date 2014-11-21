@@ -1,0 +1,38 @@
+package com.vikram;
+
+public class TestScore {
+	double average =0;
+	int i;
+	public TestScore(double number[])
+	{
+		try{
+		for( i=0;i<number.length;i++)
+		{
+			if(number[i]<0 || number[i]>100)
+				throw new Exception("Error: Invalid score: "+number[i]);
+			else 
+				average = average+number[i];
+		}
+		}
+		catch(Exception e)
+		{
+			System.out.println("Error: Invalid score: "+number[i]);
+			System.out.println();
+			System.out.println("Stack Trace:");
+			e.printStackTrace();
+		}
+		finally
+		{
+			calcAverage(number);
+		}
+	}
+	public void calcAverage(double number[])
+	{
+		for(int i=0;i<number.length;i++)
+		{
+
+				average = average+number[i];
+		}
+	}
+
+}
