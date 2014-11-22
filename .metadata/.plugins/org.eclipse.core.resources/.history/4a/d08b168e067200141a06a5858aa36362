@@ -1,0 +1,26 @@
+package vikram5;
+
+public class StringTokenizer {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String s = "Hello world! How are you ?";
+		tokenize(s, b);
+	}
+	public static void tokenize(String s, char token)
+	{
+		System.out.println("Tokens beginning with b:");
+		String[] p = s.split(" ");
+		for(int i = 0; i<p.length;i++)
+		{
+			if(p[i].charAt(0)=='b')
+			{
+				System.out.println(p[i]);
+			}
+			
+		}
+		
+	}
+
+}
