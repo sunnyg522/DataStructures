@@ -1,0 +1,41 @@
+
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ page import="com.goli.com.Question" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<script type="text/javascript">
+
+function checkAnswer(){
+	var correct = <% out.print(q.getAnswer()); %>
+	var ans = document.getElementsByName(answer);
+	if(correct==ans){
+		alert("correct answer");
+	}
+	else{
+		alert("wrong answer");
+	}
+}
+
+
+</script>
+<%  Question q = new Question();
+//String qu = q.getRandomQuestion();
+
+%>
+<% out.print(q.getRandomQuestion());%>
+
+
+<div id=queation>
+<form action="index.jsp">
+  Answer: <input type="text" name="answer"><br>
+  <input type="submit" value="Next">
+</form>
+</div>
+</body>
+</html>

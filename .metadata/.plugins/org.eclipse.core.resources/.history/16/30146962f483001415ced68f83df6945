@@ -1,0 +1,30 @@
+package com.goli.com;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
+public class Question {
+
+private Random randomGenrator;
+public int index;
+public static ArrayList <String >question = new ArrayList<String>();
+public static ArrayList <String>answer = new ArrayList<String>();
+//
+public static void setQuestionAnswers()
+{
+	//setting Questions.
+	question.add("What is the capital of california");
+	question.add("what is the capital of New York");
+	
+	
+	//setting answers.
+	answer.add("sacramento");
+	answer.add("newyork");
+	}
+public List getRandomQuestion()
+{
+	index = randomGenrator.nextInt(
+	
+	
+	}
+	
+}

@@ -1,0 +1,9 @@
+package com.goli.com;
+import java.util.ArrayList;
+public class Question {
+
+public ArrayList <String >Question = new ArrayList<String>();
+public ArrayList <String>Answer = new ArrayList<String>();
+
+	
+}

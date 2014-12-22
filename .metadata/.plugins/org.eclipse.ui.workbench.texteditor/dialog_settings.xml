@@ -13,8 +13,11 @@
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="false" key="wholeword"/>
-		<item value="Node" key="selection"/>
+		<item value="" key="selection"/>
 		<list key="findhistory">
+			<item value="address"/>
+			<item value="undo"/>
+			<item value="after"/>
 			<item value="node"/>
 			<item value="static"/>
 			<item value="public "/>
